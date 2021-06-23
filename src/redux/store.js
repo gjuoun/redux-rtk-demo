@@ -6,7 +6,7 @@ import { setupListeners } from '@reduxjs/toolkit/query'
 
 export const store= configureStore({
   reducer: {
-    // redux 
+    // reducers
     counter:counterReducer,
     todo: todoReducer,
     // apis

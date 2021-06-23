@@ -13,8 +13,8 @@ export const todoSlice = createSlice({
     },
     updateTodo: (state, action) => {// action.payload is a single todo
       state.todos = state.todos.map(todo => {
-        if(todo.id== action.payload.id){
-          return action.payloads
+        if(todo.id === action.payload.id){
+          return action.payload
         }else{
           return todo
         }
